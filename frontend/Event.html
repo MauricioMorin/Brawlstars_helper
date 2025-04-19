@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/head.css">
+    <title> brawlhelper </title>
+    <script src="js/getEventdata.js"></script>
+    
+</head>
+
+<header>
+    <h1> Eventname</h1>
+</header>
+<body>
+    <div style="max-width: 1600px; margin: auto; border: 3px solid #bebebebe; background: #00000042; border-radius: 20px; margin-top: 20px; margin-bottom: 200px; ">
+        <div class="container6">
+            <div class="container5" id="events">
+
+
+                <p class="pheader"><span id="gamemode"></span></p>
+                <p class="subp"><span id="map"></span></p>
+
+                <div class="imagecontainer">
+                    <img src="https://cdn-old.brawlify.com/map/15000101.png" class="eventimage" id="mapimage">
+                </div>
+                <img src="https://cdn-old.brawlify.com/gamemode/header/Solo-Showdown.png" class="eventenviroment" id="enviroment">
+            </div>
+            <div class="container7">
+                <table class="winratetable" id="wr-table">
+                    <caption>
+                        Best brawlers for this map
+                    </caption>
+                    <thead>
+                        <tr>
+                            <td scope="col" style="width: 50%;" class="colhead"># Brawler</td>
+                            <td scope="col" class="colhead">Winrate</td>
+                            <td scope="col" class="colhead">Userate</td>
+                        </tr>
+                    </thead>
+                    <tbody id="brawlertable" class="content">
+                        
+                    </tbody>
+
+                </table>
+                <a onclick="prevPage()" href='#' id="btn_prev">Prev</a>
+                <a onclick="nextPage()" href='#' id="btn_next">Next</a>
+                page: <span id="page"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footing>
+    <h1> end</h1>
+</footing>
+</html>
+
+
+
+<script src="js/createpagination.js"></script>

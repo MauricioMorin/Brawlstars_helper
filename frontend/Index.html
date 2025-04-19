@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/head.css">
+		<title> brawlhelper </title>
+	</head>
+	<header>
+		<h1> brawlhelper.com</h1>
+	</header>
+
+	<body>
+		<input type="text" class="text-input" name="myText" placeholder="Enter your text here.." id="Playertag" />
+		<button type="submit" class="btn" name="SearchTagBtn" id="SearchTagBtn">
+			Search Tag
+		</button>
+
+		<script type="text/javascript">
+			document.getElementById("SearchTagBtn").onclick = function () {
+				var tag = document.getElementById('Playertag').value;
+				console.log(tag)
+				location.href = `file:///C:/Alles/Htmlundso/brawlhelper/frontend/Player.html?tag=${tag}`;
+			};
+		</script>
+		<footing>
+			<h1> end</h1>
+		</footing>
+	</body>
+
+	
+</html>

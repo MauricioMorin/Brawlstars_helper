@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/head.css">
+    <title> brawlhelper </title>
+</head>
+
+<header>
+    <h1> <span id="username"></span>!</h1>
+
+    <script src="js/getPlayerdata.js"></script>
+</header>
+<body>
+    <div style="max-width: 1600px; margin: auto; border: 3px solid #bebebebe; background: #00000042; border-radius: 20px; margin-top: 20px; margin-bottom: 200px; ">
+        <div class="container1">
+            <div class="inner-element" style=" width: 100%; ">
+                <img src="" alt="" width="85" height="85" id="profilePicture" />
+                <p id="usernameText"><span id="username"></span></p>
+                <p style=" font-size: 25px; color: #b3b3b3;"><span id="playerTag"></span></p>
+                <p><img src="" alt="" width="25" height="25" id="clubIcon" style="vertical-align: middle;" /> <a href="url" id="clubUrl" style="color: aliceblue;"> <span id="club"></span></a></p>
+            </div>
+            <div class="inner-element" style="width: 80%;">
+                <table style="height: 150px; width: 100%; border-style: solid; background-color: #5878ab; border-color: #5878ab; border-radius: 10px; border-spacing: 0px; margin-left: auto; margin-right: auto; border: 2px solid #bebebe;" border="5" cellspacing="0px" cellpadding="5">
+                    <tbody>
+                        <tr style="height: 18px;">
+                            <td class="cell1">Trophies:</td>
+                            <td class="cell2"><img src="file:///C:/Alles/Htmlundso/brawlhelper/frontend/icons/trophy.png" class="icon" /><span id="trophies"></span></td>
+                        </tr>
+                        <tr style="height: 18px;">
+                            <td class="cell1">Total Victories:</td>
+                            <td class="cell2"><img src="file:///C:/Alles/Htmlundso/brawlhelper/frontend/icons/3v3.png" alt="" class="icon" /><span id="totalvictories"></span></td>
+                        </tr>
+                        <tr style="height: 18px;">
+                            <td class="cell1">3v3 Victories:</td>
+                            <td class="cell2"><img src="file:///C:/Alles/Htmlundso/brawlhelper/frontend/icons/3v3.png" alt="" class="icon" /><span id="3vs3Victories"></span></td>
+                        </tr>
+                        <tr style="height: 18px;">
+                            <td class="cell1">Duo Victories:</td>
+                            <td class="cell2"><img src="file:///C:/Alles/Htmlundso/brawlhelper/frontend/icons/Duo-Showdown.png" class="icon" /><span id="duoVictories"></span></td>
+                        </tr>
+                        <tr style="height: 18px;">
+                            <td class="cell1">Solo Victories</td>
+                            <td class="cell2"><img src="file:///C:/Alles/Htmlundso/brawlhelper/frontend/icons/Showdown.png" class="icon" /><span id="soloVictories"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h1 class="subheader">Brawlers</h1>
+        <div class="container2" id="brawers">
+        </div>
+        
+    </div>
+    <br>
+</body>
+</html>
